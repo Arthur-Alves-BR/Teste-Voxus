@@ -1,5 +1,4 @@
 {
-  "window.zoomLevel": 1,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnSave": true,
@@ -14,10 +13,17 @@
     "--disable=C0114",
     "--disable=C0115",
     "--disable=C0116",
+    "--disable=R0903",
     "--disable=R1710",
     "--disable=W0237",
     "--disable=W0702",
     "--disable=W1514",
-    "--max-line-length=1",
+    "--max-line-length=120",
+  ],
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": [
+    "--max-line-length=120",
+    "--ignore",
+    "E402"
   ],
 }
