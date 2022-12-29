@@ -1,0 +1,23 @@
+{
+  "window.zoomLevel": 1,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": true,
+  },
+  "pylint.args": [
+    "--disable=E0401",
+    "--disable=C0411",
+    "--disable=C0413",
+    "--disable=E0611",
+    "--disable=E1101",
+    "--disable=C0103",
+    "--disable=C0114",
+    "--disable=C0115",
+    "--disable=C0116",
+    "--disable=R1710",
+    "--disable=W0237",
+    "--disable=W0702",
+    "--disable=W1514",
+    "--max-line-length=1",
+  ],
+}
